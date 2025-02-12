@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hotel.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traženje smještaja</title>
+
+
+</head>
+<body>
+    <div class="preloader">
+  <div class="dot"></div>
+  <div class="dot"></div>
+  <div class="dot"></div>
+</div>
+
+
+  <header id="header">
+<header id="header">
+    <div id="clock-container">
+    <span id="clock"></span>
+</div>
+<button id="theme-toggle" class="theme-toggle-btn">🌙</button>
+
+</header>
+
+<div id="notifications"></div>
+
+
+    <div class="logo">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela/logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        
+        <li><a href="#" id="oNamaBtn">O nama</a></li>
+
+        <li><a href="#" id="KontaktBtn">Kontakt</a></li>
+
+        <li><a href="#" id="BlogBtn">Blog</a></li>
+      </ul>
+      
+    </nav>
+
+
+  </header>
+
+  <section class="hero-section">
+    <div class="overlay">
+      <div class="text">
+        <h1>Potražite svoj smještaj</h1>
+        <div class="buttons">
+          <a href="#" class="button">TRAŽI</a>
+          <a href="#" class="button" id="posebnaponudaButton">POSEBNA PONUDA</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-section" style="background-image: url('C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\mina.jpg');">
+    <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\mina.jpg" alt="Mina's Photo">
+  </section>
+
+<section class="search-bar-section">
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Pretražite..."
+        />
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Nova sekcija s boxovima ispod slike -->
+  <section class="box-section hidden">
+
+
+  
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba1.jpg" alt="Slika 1">
+      <h3>Smještaj u Sarajevu</h3>
+      <p>Cijena: 70 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+      </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba2.jpg" alt="Slika 2">
+      <h3>Smještaj u Banja Luci</h3>
+      <p>Cijena: 65 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba3.jpg" alt="Slika 3">
+      <h3>Smještaj u Mostaru</h3>
+      <p>Cijena: 85 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba4.jpg" alt="Slika 1">
+      <h3>Smještaj u Konjicu</h3>
+      <p>Cijena: 45 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba5.jpg" alt="Slika 2">
+      <h3>Hotel u Travniku</h3>
+      <p>Cijena: 40 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba6.jpg" alt="Slika 3">
+      <h3>Hotel u Neumu</h3>
+      <p>Cijena: 90 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba7.jpg" alt="Slika 1">
+      <h3>Hotel u Bihaću</h3>
+      <p>Cijena: 50 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba8.jpg" alt="Slika 2">
+      <h3>Smještaj u Sarajevu</h3>
+      <p>Cijena: 95 KM</p>
+<a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+    <div class="box">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\soba9.jpg" alt="Slika 3">
+      <h3>Hotel u Mostaru</h3>
+      <p>Cijena: 70 KM</p>
+      <a href="https://www.booking.com/">
+      <button>Rezerviši</button>
+    </a>
+    </div>
+
+<h4 class="rukopis">Gradovi u kojima imamo smjestaje</h4>
+    <!-- Slično ponavljajte za preostale boxove -->
+  </section>
+
+
+<!-- Dodajte slajder ispod postojećih sekcija -->
+<section class="slider-section">
+    <div class="slider-container">
+        <div class="slider">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\sarajevo.jpg" alt="Slider Image 1">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\mostar.jpg" alt="Slider Image 2">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\mostar2.jpg" alt="Slider Image 3">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\mostar-blog.jpg" alt="Slider Image 3">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\sarajevo-blog.jpg" alt="Slider Image 3">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\grad-blog.jpg" alt="Slider Image 3">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\konjic.jpg" alt="Slider Image 3">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\bihac.jpg" alt="Slider Image 3">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\bl.jpg" alt="Slider Image 3">
+            <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\neum.jpg" alt="Slider Image 3">
+
+            <!-- Dodajte koliko god želite slika za slajder -->
+        </div>
+    </div>
+    
+
+
+</section>
+
+</div>
+<section>
+    <div class="slider-controls">
+        <button id="prev">Previous</button>
+<button id="next">Next</button>
+
+    </div>
+
+</section>
+
+<div class="container">
+  <div class="slika-container">
+    <!-- Vaša slika ovdje -->
+    <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\about.jpg" alt="Slika">
+  </div>
+  <div class="tekst-container">
+    <h5>O nama</h5>
+    <p>Naš fokus je pružanje posebnog doživljaja svakom putniku koji koristi online platforme kako bi pronašao savršen smještaj za svoje putovanje. Verujemo da svako putovanje zaslužuje jedinstvenu priču, i trudimo se stvoriti atmosferu koja zadovoljava različite potrebe i ukuse.
+
+Naš hotel nije samo mesto za spavanje; to je prostor gde se sreću različite kulture, gde se razmenjuje smeh i gde nastaju dugotrajna prijateljstva. Trudimo se pružiti personalizovan pristup svakom gostu, bilo da su poslovni putnici u potrazi za mirnim radnim prostorom ili avanturisti koji žele istražiti lokalne znamenitosti.<br><br>
+
+Jedan od ključnih elemenata našeg poslovanja je stalno praćenje i prilagođavanje najnovijim tehnologijama i trendovima u industriji putovanja. Kroz online platforme, omogućavamo gostima jednostavnu rezervaciju, pregled fotografija i recenzija kako bi se osećali sigurno i uzbuđeno pre nego što stignu do nas.<br><br>
+
+Sve ovo postalo je moguće zahvaljujući internetu, koji nam omogućava da dosegnemo globalnu publiku i stvorimo vezu sa ljudima iz najrazličitijih delova sveta. Radujemo se svakom novom dolasku gosta, svakom novom razgovoru i prilici da našim gostima pružimo nezaboravan boravak u našem malom kutku sveta.</p>
+  </div>
+</div>
+
+
+<div class="contact-section">
+   <p class="contact-text">Ukoliko imate neka pitanja, kontaktirajte nas na broj</p>
+<p class="phone-number">+387 00 000 000</p>
+<p class="contact-text">ili</p>
+<p class="social-media">putem naših društvenih mreža</p>
+
+</div>
+
+<a href="url_vaše_stranice">
+  
+
+<div class="icon-section">
+  <a href="https://www.instagram.com/">
+  <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\instagram.png" alt="Ikonica 1">
+</a>
+<a href="https://www.facebook.com/">
+  <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\fb.png" alt="Ikonica 2">
+  </a>
+  <a href="https://web.whatsapp.com/">
+  <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\wa.png" alt="Ikonica 3">
+  </a>
+</div>
+
+<div class="blog-info">
+ <h7>Pogledajte nase blog postove klikom na dugme</h7>
+
+<button id="blogToggleBtn">Pritisni</button>
+</div>
+
+<div class="blog-container">
+    <div class="blog-box">
+      <a href="https://planinarenje.ba/planinarski-imenik/planine">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\planina-blog.jpg" alt="Slika 1">
+    </a>
+      <h6>10 najljepsih planina u Bosni i Hercegovini</h6>
+      <p>Upoznjte se sa najljepsim planinama u Bosni i Hercegovini koje predstavljaju turisticku atrakciju za sve posjetitelje...</p>
+    </div>
+    <div class="blog-box">
+      <a href="https://visitbih.ba/ljepote-od-kojih-zastaje-dah-najljepse-rijeke-u-bosni-i-hercegovini/">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\rijeke-blog.jpg" alt="Slika 2">
+      </a>
+      <h6>Rijeke u Bosni i Hercegovini koje morate posjetiti</h6>
+      <p>Bosna i Hercegovina, zemlja bogata prirodnim ljepotama, obiluje rijekama koje igraju ključnu ulogu u formiranju njenog pejzaža i ekosustava....</p>
+    </div>
+
+    <div class="blog-box">
+      <a href="https://sh.wikipedia.org/wiki/Popis_gradova_u_Bosni_i_Hercegovini">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\grad-blog.jpg" alt="Slika 3">
+    </a>
+      <h6>5 najljepih gradova u Bosni i Hercegovini</h6>
+      <p>Bosna i Hercegovina obiluje gradovima koji sjedinjuju bogatu historiju, kulturno nasljeđe te modernu atmosferu.arajevo, glavni grad, poznato je po svojoj...</p>
+    </div>
+    <div class="blog-box">
+     <a href="https://hr.wikipedia.org/wiki/Stari_most_u_Mostaru">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\mostar-blog.jpg" alt="Slika 4">
+    </a>
+      <h6>Stari most u Mostaru kao turisticka atrakcija</h6>
+      <p>Stari most u Mostaru, jedan od najprepoznatljivijih simbola Bosne i Hercegovine, predstavlja remek-djelo osmanske arhitekture i inženjerske vještine. Most je...</p>
+    </div>
+    <!-- Ponovi ovaj blok za dodatne redove -->
+ 
+
+ 
+    <div class="blog-box">
+      <a href="https://hr.wikipedia.org/wiki/Konjic">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\konjic-blog.jpg" alt="Slika 1">
+    </a>
+      <h6>Stari most u Konjicu - cuprija iz Osmanskog Carstva</h6>
+      <p>Danas je Stari most u Konjicu popularna turistička destinacija koja privlači posjetitelje svojom ljepotom, historijskim značajem i spektakularnim pogledom na rijeku Neretvu... </p>
+    </div>
+    <div class="blog-box">
+      <a href="https://hr.wikipedia.org/wiki/Travnik">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\travnik-blog.jpg" alt="Slika 2">
+    </a>
+      <h6>Grad Travnik - srce Bosne i Hercegovine</h6>
+      <p>Travnik, smješten u središnjoj Bosni, bogat je kulturnim nasljeđem i povijesnim značajkama. Grad je poznat po svojoj srednjovjekovnoj tvrđavi koja dominira...</p>
+    </div>
+
+    <div class="blog-box">
+      <a href="https://hr.wikipedia.org/wiki/Sarajevo">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\sarajevo-blog.jpg" alt="Slika 3">
+    </a>
+      <h6>Sarajevo - glavni grad Bosne i Hercegovine</h6>
+      <p>Baščaršija, stari dio grada, predstavlja srce Sarajeva i jedan je od najbolje očuvanih osmanskih bazara u Europi. Ovdje se može doživjeti autentična atmosfera...</p>
+    </div>
+    <div class="blog-box">
+      <a href="https://radiobrcko.ba/magazin/10-najljepsih-jezera-u-bih-na-kojima-mozete-uzivati-u-odmoru/">
+      <img src="C:\Users\Windows\Desktop\Aplikacija za rezervaciju hotela\jezero-blog.jpg" alt="Slika 4">
+    </a>
+      <h6>5 najljepsih jezera u Bosni i Hercegovini</h6>
+      <p>Bosna i Hercegovina obiluje prekrasnim jezerima koja pružaju spektakularne prirodne pejzaže i priliku za opuštanje i rekreaciju...</p>
+    </div>
+    <!-- Ponovi ovaj blok za dodatne redove -->
+  </div>
+   </div>
+  <script src="hotel.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+
+<h8 class="posebna-ponuda">Ako želite posebnu ponudu, ostavite svoje podatke</h8>
+
+
+<div class="forma-container">
+<form action="#" method="post">
+ <div class="form-group">
+ <label for="ime">Ime:</label>
+   <input type="text" id="ime" name="ime" required>
+ </div>
+
+ <div class="form-group">
+  <label for="prezime">Prezime:</label>
+    <input type="text" id="prezime" name="prezime" required>
+     </div>
+
+  <div class="form-group">
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email" required>
+   </div>
+
+<div class="form-group">
+ <input type="submit" value="Pošalji">
+  </div>
+  </form>
+</div>
+
+
+</body>
+</html>
