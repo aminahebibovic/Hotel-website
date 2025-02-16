@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a **Hotel Booking Application** designed to help users search for and reserve accommodations in various cities. The application features an interactive user interface, a search bar, a dark mode toggle, a real-time clock, and a responsive design. It also includes smooth scrolling, a slider for showcasing different destinations, and preloader animations.
+This is a **Hotel Reservation Application** designed to help users search for and reserve accommodations in various cities. The application features an interactive user interface, a search bar, a dark mode toggle, a real-time clock, and a responsive design. It also includes smooth scrolling, a slider for showcasing different destinations, and preloader animations.
 
 ## Features
 
