@@ -38,5 +38,5 @@ Navigate through the image slider to explore locations.
 Click the "Book Now" button to reserve a stay.
 
 ## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
+This project is licensed under the **MIT License**. See the **LICENSE** file for more details.
 
